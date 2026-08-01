@@ -14,10 +14,10 @@ Modern authentication mechanisms heavily rely on text-based passwords. However, 
 
 ## Features
 
-- ** Heuristic Password Strength Evaluator**: Audits input strings across a 5-point complexity matrix (Length, Uppercase, Lowercase, Numbers, and Special Characters).
-- ** High-Entropy Password Generator**: Generates cryptographically varied pseudo-random password tokens with strict default overrides (enforcing a minimum 12-character fallback on short/invalid inputs).
-- ** Anonymized Breach Scanner (HIBP API Integration)**: Queries the *Have I Been Pwned* REST API using **k-Anonymity** (partial SHA-1 hashing) to check if credentials have been compromised in known data leaks.
-- ** Cross-Platform Terminal UI**: Features custom ANSI color coding and screen management compatible with Windows (`cls`) and Linux/macOS (`clear`).
+-  Heuristic Password Strength Evaluator**: Audits input strings across a 5-point complexity matrix (Length, Uppercase, Lowercase, Numbers, and Special Characters).
+- High-Entropy Password Generator**: Generates cryptographically varied pseudo-random password tokens with strict default overrides (enforcing a minimum 12-character fallback on short/invalid inputs).
+-  Anonymized Breach Scanner (HIBP API Integration)**: Queries the *Have I Been Pwned* REST API using **k-Anonymity** (partial SHA-1 hashing) to check if credentials have been compromised in known data leaks.
+-  Cross-Platform Terminal UI**: Features custom ANSI color coding and screen management compatible with Windows (`cls`) and Linux/macOS (`clear`).
 
 ---
 
